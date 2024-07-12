@@ -3,7 +3,7 @@ A small plugin that improves user experience and speeds up loading of Issue page
 
 ### Install 
 
-1. Download plugin and copy plugin folder redmine_note_shortener to Redmine's plugins folder 
+1. download plugin and copy plugin folder redmine_note_shortener to Redmine's plugins folder 
 
 2. perform migrations
 
