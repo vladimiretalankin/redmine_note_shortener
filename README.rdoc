@@ -1,3 +1,0 @@
-= redmine_note_shortener
-
-Description goes here
