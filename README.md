@@ -1,5 +1,5 @@
 # redmine_note_shortener
-A small plugin that improves user experience and speeds up loading of Issue pages by hiding out notes' text that exceeds the given number of characters. Each user can set their preferable number of characters to display.
+A small plugin that improves user experience and speeds up loading of Issue pages by hiding out notes' text that exceeds the given number of characters. Each user can set their preferred number of characters to display.
 
 ### Install 
 
@@ -23,7 +23,7 @@ go to Redmine root folder and run command:
 
 ### Use
 
-On 'My account' page (the link to which is usually near the upper-right corner) put the desirable number of displayable characters into the field 'Number of characters in notes'.
+On 'My account' page (the link to which is usually near the upper-right corner) put the desirable number of displayed characters into the field 'Number of characters in notes'.
 
 Type any number below 30 for unabridged notes. Press the 'Save' button. Changes can then be seen upon (re)loading any issue with sufficiently long notes. Restarting Redmine is not needed.
 
