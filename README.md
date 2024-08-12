@@ -1,6 +1,8 @@
 # redmine_note_shortener
 A small plugin that improves user experience and speeds up loading of Issue pages by hiding out notes' text that exceeds the given number of characters. Each user can set their preferred number of characters to display.
 
+![GIF that represents a quick overview](redmine_note_shortener.gif)
+
 ### Install 
 
 1. download plugin and copy plugin folder redmine_note_shortener to Redmine's plugins folder 
