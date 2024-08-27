@@ -14,7 +14,7 @@ module RedmineNoteShortener
 
         module InstanceMethods
             def render_notes_with_cut(issue, journal, options={})
-              cv = User.current.custom_values.where(custom_field_id: CF_CUT_AFTER_CHARS).to_a.try(:[], 0)&.value.to_i
+              chars_to_show = User.current.custom_values.where(custom_field_id: CF_CUT_AFTER_CHARS).to_a.try(:[], 0)&.value.to_i
               if chars_to_show > 30 && journal[:notes].size > chars_to_show 
                 text = journal[:notes].slice(0,chars_to_show) + " <...>"
               else
