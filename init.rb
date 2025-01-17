@@ -9,6 +9,7 @@ Redmine::Plugin.register :redmine_note_shortener do
   
   NOTES_CHARS_BEFORE_CUT = 'Number of characters in notes'
   CF_CUT_AFTER_CHARS = custom_field = CustomField.find_by_name(NOTES_CHARS_BEFORE_CUT)&.id
+  NOTES_MINIMUM_CHARS = 30
   NOTE_SHORTENER_CF_DESC = 'Number of characters to show in incoming notes. For unabridged notes set the value to 0.'
   
 end
